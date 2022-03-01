@@ -62,13 +62,15 @@ Transformação da variável resposta: Foi utilizado a transformação logarítm
 ###Nature Transformation
 day_of_week, month, week_of_year, day: Por tratar-se de uma natureza cíclica foi utilizado o seno e cosseno
 
-#### 6.0. Seleção de Features: 
+### 6.0. Seleção de Features: 
 
 Para a seleção das variáveis mais relevantes para o modelo foi utilizado o algoritmo Boruta. Por se tratar de um problema que envolve tempo, os dados de treino e teste não podem ser escolhidos aleatoriamente, então, para os dados de treino foi selecionado o selecionado as últimas 6 semanas de vendas.
 
-#### 7.0. Aplicação de Algoritmos de Machine Learning: Foram testados 5 modelos de Machine Learning: Linear Regression, Linear Regression - Lasso, Average Model, XGBoost Regressor e o Random Forest Regressor.
+### 7.0. Aplicação de Algoritmos de Machine Learning:
 
-### Contatações:
+Foram testados 5 modelos de Machine Learning: Linear Regression, Linear Regression - Lasso, Average Model, XGBoost Regressor e o Random Forest Regressor.
+
+#### Contatações:
 
 Average Model: Performou melhor que os modelos lineares;
 Linear Regression e Linear Regression Regularized: A previsão de vendas das lojas Rossman possuí dados complexos, modelos lineares não funcionam muito bem para esse tipo de fenômeno.
