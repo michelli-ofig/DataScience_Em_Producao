@@ -39,7 +39,7 @@ Foi criado um mapa mental de Hipóteses para entender qual fenômeno está sendo
 Objetivo das hipóteses:
 Conseguir derivar uma lista de hipóteses para validar com os dados, assim gerando insights para o negócio.
 
-### 4.O. Análise Exploratória dos dados: 
+### 4.0. Análise Exploratória dos dados: 
 
 Hipóteses constatadas na Feature Engineering e estudo do comportamento dos dados:
 competition_distance: Possui uma concentração maior em competidores com uma distância menor, os competidores estão muito próximos. 
@@ -75,7 +75,9 @@ Linear Regression e Linear Regression Regularized: A previsão de vendas das loj
 Random Forest Regressor e XGBoost Regressor: A previsão de vendas das lojas Rossman exige modelos mais complexos, Random Forest Regressor e XGBoost Regressor funcionaram bem 
 Em todos os modelos testados, exceto o Average Model, foram aplicados após o resultado o cross validation Time Series para testar a variabilidade que o fenômeno possa ter.
 
-### 8.0. Hyperparameter Fine Tuning: Foi implementado o Fine Tuning para encontrar um melhor parâmetro que maximize o resultado do modelo.
+### 8.0. Hyperparameter Fine Tuning:
+
+Foi implementado o Fine Tuning para encontrar um melhor parâmetro que maximize o resultado do modelo.
 
 ### 9.0. Business Performance 
  
