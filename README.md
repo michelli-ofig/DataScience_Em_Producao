@@ -42,13 +42,21 @@ Conseguir derivar uma lista de hipóteses para validar com os dados, assim geran
 ### 4.0. Análise Exploratória dos dados: 
 
 Hipóteses constatadas na Feature Engineering e estudo do comportamento dos dados:
+
 competition_distance: Possui uma concentração maior em competidores com uma distância menor, os competidores estão muito próximos. 
+
 competition_open_since_month: Mostra o comportamento de acordo com a abertura em meses do competidor, nesta análise verifica-se que nos meses 4 e 7 há um comportamento maior de vendas.
+
 day_of_week: Não há variação de vendas durante os dias da semana 
+
 is_promo: O volume de vendas é maior quando a loja não está em promoção.
+
 promo2_since_year: As lojas que entraram na promoção em 2013 e 2015 possuem um maior volume de vendas.
+
 state_holiday: Os feriados públicos possuem um número maior de vendas. Os feriados christmas e easter_holiday possuem um volume de venda menor, porém tem um pico alto de vendas.
+
 store_type: A loja do tipo a possuí um volume bem maior comparado as outras lojas, quanto ao volume de vendas 
+
 assortment: As lojas com o assortment basic e extended são as que vendem mais, o extra tem um volume de vendas menor, porém com uma distribuição maior, existem lojas que vendem mais com o assortment extra e outras lojas que vendem menos.  
 
 ### 5.0. Rescala dos dados:
