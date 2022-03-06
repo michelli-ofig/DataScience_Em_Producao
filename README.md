@@ -90,7 +90,7 @@ Foi implementado o Fine Tuning para encontrar um melhor parâmetro que maximize 
 
 ### 9- Business Performance 
  
-- Para avaliar a performance de negócio é somado todas as predições por loja 
+- Para avaliação da performance de negócio é somado todas as predições por loja 
 
  - Calculo do MAE e MAPE para cada loja 
 
