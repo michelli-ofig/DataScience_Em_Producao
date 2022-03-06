@@ -58,7 +58,7 @@ store_type: A loja do tipo a possuí um volume bem maior comparado as outras loj
 
 assortment: As lojas com o assortment basic e extended são as que vendem mais, o extra tem um volume de vendas menor, porém com uma distribuição maior, existem lojas que vendem mais com o assortment extra e outras lojas que vendem menos.  
 
-### 5  Rescala dos dados:
+### 5- Rescala dos dados:
 
 #### Encoding
 
@@ -90,11 +90,11 @@ Foi implementado o Fine Tuning para encontrar um melhor parâmetro que maximize 
 
 ### 9- Business Performance 
  
-1 – Soma das predições
-Para avaliar a performance de negócio é somado todas as predições por loja 
-2 – MAE e MAPE
+- Para avaliar a performance de negócio é somado todas as predições por loja 
 
-### 10- Deploy do Modelo: 
+ - Calculo do MAE e MAPE para cada loja 
+
+### 10- Deploy
 
 Implantação com o objetivo de disponibilizar a previsão do modelo para qualquer usuário. O usuário pode ser: uma pessoa, smartphone, aplicativo, site, planilhas do google, excel ou qualquer software conectado na internet que possa executar uma solicitação de API. A solicitação de previsão pode ser feita por qualquer um dos usuários. A interface entre o usuário e o modelo é feita por meio da API. Posteriormente, tanto a API quanto o modelo serão carregados em um servidor nuvem (heroku) para que possam trabalhar com as solicitações enviadas pela internet. Neste caso foi criado um bot no telegrama para o projeto, de forma que a solicitação de previsão de vendas seja feita de forma rápida e fácil. A previsão pode ser acessada a qualquer momento e em qualquer lugar que tenha acesso a internet somente digitando o número da loja como entrada.
 
