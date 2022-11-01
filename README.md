@@ -35,23 +35,23 @@ The sales are influenced by many factors, including promotion, competition, stat
 
 ### Data Insights
  
-1- Stores with closer competitors should sell more. 
+**1-** Stores with closer competitors should sell more. 
 
-2- Stores with more assortment sell less.
+**2-** Stores with more assortment sell less.
 
-3- Stores with longer competitions sell less.
+**3-** Stores with longer competitions sell less.
 
-4- Stores with longer active promotions sell less.
+**4-** Stores with longer active promotions sell less.
 
-5- Open stores during the Christmas holiday sell less.
+**5-** Open stores during the Christmas holiday sell less.
 
-6- Stores with basic assortments show more sales. 
+**6-** Stores with basic assortments show more sales. 
 
-7- Stores sell more after the tenth day of each month.
+**7-** Stores sell more after the tenth day of each month.
 
-8- The business day doesn’t have a positive correlation with sales amount. 
+**8-** The business day doesn’t have a positive correlation with sales amount. 
 
-9- Sales volume is higher when the store is not on sale.
+**9-** Sales volume is higher when the store is not on sale.
 
 ### Comparison of Machine Learning Model's Performance after cross validation 
 
@@ -59,9 +59,15 @@ The sales are influenced by many factors, including promotion, competition, stat
 
 ### XGBoost Regressor after Fine Tuning 
 
+![xg_boosty](https://user-images.githubusercontent.com/77075354/199278553-df8357a7-571b-48b5-923e-7b59f057a95b.png)
+
 ### Business Performance
 
+![business_performance](https://user-images.githubusercontent.com/77075354/199278801-f0192861-cdbf-46bc-9c75-22cbe0e08133.png)
+
 ### Total Performance
+
+![total_perfomance](https://user-images.githubusercontent.com/77075354/199278889-e562b8a2-4736-4ccd-8dc1-29c997f4e1b5.png)
 
 ### Production Deployment
 
