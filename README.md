@@ -36,13 +36,21 @@ The sales are influenced by many factors, including promotion, competition, stat
 ### Data Insights
  
 1- Stores with closer competitors should sell more. 
+
 2- Stores with more assortment sell less.
+
 3- Stores with longer competitions sell less.
+
 4- Stores with longer active promotions sell less.
+
 5- Open stores during the Christmas holiday sell less.
+
 6- Stores with basic assortments show more sales. 
+
 7- Stores sell more after the tenth day of each month.
+
 8- The business day doesn’t have a positive correlation with sales amount. 
+
 9- Sales volume is higher when the store is not on sale.
 
 ### Comparison of Machine Learning Model's Performance after cross validation 
