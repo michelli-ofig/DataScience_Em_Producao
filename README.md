@@ -55,7 +55,7 @@ The sales are influenced by many factors, including promotion, competition, stat
 
 ### Comparison of Machine Learning Model's Performance after cross validation 
 
-![This is an image](C:\Users\miche\OneDrive\Documentos\Notebook_Samsung\Data Science_Projetos\DataScience_Em_Producao\img_readme)
+![models_dsproducao](https://user-images.githubusercontent.com/77075354/199277525-0e2da3a3-9627-43f6-9900-421692beb47d.png)
 
 ### XGBoost Regressor after Fine Tuning 
 
